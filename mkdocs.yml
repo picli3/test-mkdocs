@@ -1,0 +1,16 @@
+site_name: Test MkDocs
+nav:
+  - Home: 'index.md'
+  - About: 'gato.md'
+  - Perros: 'perros.md'
+  - Ayuda:
+    - 'info' : 'info/getting-started.md'
+    - 'Fano' : 'info/infod.md'
+
+
+theme:
+  name: material
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
