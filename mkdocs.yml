@@ -4,8 +4,9 @@ site_url: http://www.example.com
 site_author: Maykol Rey
 
 # Repository
-repo_name: squidfunk/mkdocs-material
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: picli3/test-mkdocs
+repo_url: https://github.com/picli3/test-mkdocs
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2024 MS4M.SAC
