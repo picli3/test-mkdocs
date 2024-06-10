@@ -69,6 +69,7 @@ theme:
 
 # Plugins
 plugins:
+  - glightbox
   - blog
   #- with-pdf
   - search:
@@ -173,5 +174,8 @@ nav:
   - Como Documentar:
     - 'info/getting-started.md'
     - 'info/infod.md'
+  - Conectores:
+    - 'conectores/index.md'
+    - 'conectores/conectorMilitar.md'
 
 
