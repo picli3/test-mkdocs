@@ -70,7 +70,13 @@ theme:
 
 # Plugins
 plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
   - glightbox
+  - git-committers:
+      repository: picli3/test-mkdocs
+      branch: main
+  - git-authors
   - blog
   #- with-pdf
   - search:
