@@ -124,28 +124,28 @@ Entonces conociendo esto, la tabla anterior quedaría de la misma forma.
 
 | **Hembra**                 | **Macho**                  |
 |------------------------|------------------------|
-| MS3116 **A16-26S**   | MS3116 **A16-26P** |
-| MS3116 **E16-26S**   | MS3116 **E16-26P** |
-| MS3116 **A-(SR)16-26S**   |  MS3116 **A-(SR)16-26P**|
-| MS3116 **E-(SR)16-26S**   | MS3116 **E-(SR)16-26P** |
-| MS3116 **F16-26S**   | MS3116 **F16-26P** |
-| MS3116 **J16-26S**   |  MS3116 **J16-26P**|
-| MS3116 **W16-26S**   | MS3116 **W16-26P** |
-| MS3116 **P16-26S**   |  MS3116 **P16-26P**|
-| PT06 **A16-26S**     | PT06 **A16-26P**|
-| PT06 **E16-26S**     |PT06 **E16-26P**|
-|PT06 **A-(SR)16-26S** |PT06 **A-(SR)16-26P**|
-|PT06 **E-(SR)16-26S** |PT06 **E-(SR)16-26P**|
-| PT06 **F16-26S**     | PT06 **F16-26P**|
-| PT06 **J16-26S**     |PT06 **J16-26P**|
-| PT06 **W16-26S**     | PT06 **W16-26P**|
-| PT06 **P16-26S**     |PT06 **P16-26P**|
-|85106 **RA 16-26S**    |85106 **RA 16-26P**|
-|85106 **R 16-26S**    |85106 **R 16-26P**|
-|85106 **RT 16-26S**    |85106 **RT 16-26P**|
-|85106 **RM 16-26S**    |85106 **RM 16-26P**|
-|85106 **RG 16-26S**    |85106 **RG 16-26P**|
-|85106 **RZ 16-26S**    |85106 **RZ 16-26P**|
+|MS3116A16-26    |MS3116A16-26P |
+|MS3116E16-26S   |MS3116E16-26P |
+|MS3116A-(SR)16-26   |MS3116A-(SR)16-26|
+|MS3116E-(SR)16-26S  |MS3116E-(SR)16-26P |
+|MS3116F16-26S   |[MS3116F16-26P](https://renhotecpro.com/product/mil-dtl-26482-series-1-connectorms3116f16-26p-male-cable-mount-plug26-pin-solder) |
+|MS3116J16-26S   |MS3116J16-26P|
+|MS3116W16-26S   |MS3116W16-26P|
+|MS3116P16-26S |MS3116P16-26P|
+|PT06A16-26S   |PT06 A16-26P|
+|PT06E16-26S   |PT06E16-26P|
+|PT06A-(SR)16-26S|PT06A-(SR)16-26P|
+|PT06E-(SR)16-26S|PT06 E-(SR)16-26P|
+|PT06F16-26S   |PT06F16-26P|
+|PT06J16-26S   |PT06J16-26P|
+|PT06W16-26S   |PT06W16-26P|
+|PT06P16-26S   |PT06 P16-26P|
+|85106RA16-26S |85106RA16-26P**|
+|85106R16-26S  |85106R16-26P|
+|85106RT16-26S |85106RT16-26P|
+|85106RM16-26S |85106RM16-26P|
+|85106RG16-26S |85106RG16-26P|
+|85106RZ16-26S |85106RZ16-26P|
 
 ### Modificador
 
@@ -160,7 +160,9 @@ Para la serie 851 estos serían los modificadores que le corresponde
 
 
 
-
+* [Hoja de datos de conector militar ITT](https://www.peigenesis.com/images/products/pdf/fullspec_can__kpse.pdf)
+* [Hoja de datos de conector militar Amphenol](https://www.peigenesis.com/images/content/pei_tabs/amphenol/pt-ptse-series/new-thumbs/123-146_pt_series.pdf)
+* [Hoja de datos de conector militar Pei-Genesis](https://www.peigenesis.com/images/content/pei_tabs/souriau/851-series/eaton-souriau-MILDTL26482-connector-851-catalog-en-us.pdf)
 
 
 
@@ -171,6 +173,4 @@ Para la serie 851 estos serían los modificadores que le corresponde
 ### KPT7 (RECEPTACLES)
 
 
-* [Hoja de datos de conector militar ITT](https://www.peigenesis.com/images/products/pdf/fullspec_can__kpse.pdf)
-* [Hoja de datos de conector militar Amphenol](https://www.peigenesis.com/images/content/pei_tabs/amphenol/pt-ptse-series/new-thumbs/123-146_pt_series.pdf)
-* [Hoja de datos de conector militar Pei-Genesis](https://www.peigenesis.com/images/content/pei_tabs/souriau/851-series/eaton-souriau-MILDTL26482-connector-851-catalog-en-us.pdf)
+
