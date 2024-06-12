@@ -1,1 +1,0 @@
-# Enfoque de cámara

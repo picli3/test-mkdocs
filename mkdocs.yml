@@ -12,6 +12,13 @@ edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2024 MS4M.SAC
 
 theme:
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+  icon:
+    tag:
+      html: fontawesome/brands/html5
+      js: fontawesome/brands/js
+      css:  fontawesome/brands/css3
   name: material
   language: es
   #custom_dir: material/overrides
@@ -65,12 +72,12 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
-  icon:
-    logo: logo
+
+
 
 # Plugins
 plugins:
+  - tags
   - with-pdf:
       author: WHO
       copyright: ANY TEXT
@@ -98,7 +105,7 @@ plugins:
       #render_js: true
       #headless_chrome_path: /bin/chromium
       output_path: pdf/document.pdf
-      #enabled_if_env: ENABLE_PDF_EXPORT
+      enabled_if_env: ENABLE_PDF_EXPORT
       debug_html: true
       show_anchors: true
       #verbose: true
@@ -108,7 +115,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - glightbox
-  - git-authors
+  #- git-authors
   #- with-pdf
   - search:
       lang: en
@@ -117,6 +124,10 @@ plugins:
 
 # Additional configuration
 extra:
+  tags:
+    HTML5: html
+    JavaScript: js
+    CSS: css
   status:
     new: Recently added
     deprecated: Deprecated
@@ -194,26 +205,11 @@ extra_javascript:
 
 nav:
   - Home: 'index.md'
-  - About: 'gato.md'
-  - Perros: 'perros.md'
-  - PDS:
-    - 'PDS/index.md'
-    - 'PDS/como-instalar.md'
-    - 'PDS/bom.md'
-  - FCS:
-    - 'FCS/index.md'
-    - Camara:
-        - 'FCS/camara/index.md'
-        - 'FCS/camara/bom.md'
-        - 'FCS/camara/manualFab.md'
-        - 'FCS/camara/enfoque-camara.md'
-        - 'FCS/camara/troubleshooting.md'
-
-  - Como Documentar:
-    - 'info/getting-started.md'
-    - 'info/infod.md'
   - Conectores:
     - 'conectores/index.md'
     - 'conectores/conectorMilitar.md'
+  - Como Documentar:
+    - 'info/getting-started.md'
+    - 'info/infod.md'
 
 
