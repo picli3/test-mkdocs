@@ -136,6 +136,7 @@ Para la serie 851 estos serían los modificadores que le corresponde
 * [Hoja de datos de conector militar ITT](https://www.peigenesis.com/images/products/pdf/fullspec_can__kpse.pdf)
 * [Hoja de datos de conector militar Amphenol](https://www.peigenesis.com/images/content/pei_tabs/amphenol/pt-ptse-series/new-thumbs/123-146_pt_series.pdf)
 * [Hoja de datos de conector militar EATON](https://www.peigenesis.com/images/content/pei_tabs/souriau/851-series/eaton-souriau-MILDTL26482-connector-851-catalog-en-us.pdf)
+* [Documentación en PDF](https://picli3.github.io/test-mkdocs/pdf/document.pdf)
 
 
 
