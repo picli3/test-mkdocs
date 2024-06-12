@@ -13,6 +13,7 @@ copyright: Copyright &copy; 2024 MS4M.SAC
 
 theme:
   name: material
+  language: es
   #custom_dir: material/overrides
   features:
     - announce.dismiss
@@ -80,7 +81,6 @@ plugins:
       repository: picli3/test-mkdocs
       branch: main
   - git-authors
-  - blog
   #- with-pdf
   - search:
       lang: en
