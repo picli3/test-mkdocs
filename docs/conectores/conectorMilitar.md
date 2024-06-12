@@ -10,7 +10,7 @@ En MS4M se usan 4 tipo de conectores para la control screen. Los número de part
 
 Lo primero que de debe hacer es escoger el standar con el cual se va a trabajar, estos estandares tienen impacto en la calidad y precio del conector.
 
-### MS3116, PT06, KPTSE06, KPSE05A, 85106
+### MS3126, PT06, KPTSE06, KPSE05A, 85106
 Los conectores que comiencen por esta serie son usando para armar cable arnes.
 
 ![](../assets/img/conector_militar_2.png){align=center}
@@ -26,22 +26,19 @@ Este valor esta representado por una letra que tiene equivalencia con la siguien
 
 Entonces para hacer un cable arnes, se podria escoger en principio
 
-1. MS3116 **A**  
-2. MS3116 **E**
-3. MS3116 **A-(SR)**
-4. MS3116 **E-(SR)**  
-5. MS3116 **F**
-6. MS3116 **J**
-7. MS3116 **W**
-8. MS3116 **P**
-9. PT06 **A**
-10. PT06 **E**
-11. PT06 **A-(SR)**
-12. PT06 **E-(SR)**
-13. PT06 **F**
-14. PT06 **J**
-15. PT06 **W**
+1. MS3126 **A**  
+2. MS3126 **E**
+3. PT06 **SE-(SR)**
+4. PT06 **CE-(SR)**
+
+13. KPTSE06 **F**
+14. PT06 **SP**
+15. PT06 **CP**
 16. PT06 **P**
+3. MS3126 **A-(SR)**
+4. MS3126 **E-(SR)**  
+5. MS3126 **F**
+6. MS3126 **J**
 
 Para la serie 851 se tiene otras letras de equivalencia que se muestra en la siguiente imagen:
 
@@ -68,14 +65,14 @@ Se puede ver la forma en la siguiente imagen.
 
 Se podria, aumentar la especificacion entonces de la siguiente forma:
 
-1. MS3116 **A** **16-26**
-2. MS3116 **E** **16-26**
-3. MS3116 **A-(SR)** **16-26**
-4. MS3116 **E-(SR)** **16-26**
-5. MS3116 **F** **16-26**
-6. MS3116 **J** **16-26**
-7. MS3116 **W** **16-26**
-8. MS3116 **P** **16-26**
+1. MS3126 **A** **16-26**
+2. MS3126 **E** **16-26**
+3. MS3126 **A-(SR)** **16-26**
+4. MS3126 **E-(SR)** **16-26**
+5. MS3126 **F** **16-26**
+6. MS3126 **J** **16-26**
+7. MS3126 **W** **16-26**
+8. MS3126 **P** **16-26**
 9. PT06 **A** **16-26**
 10. PT06 **E** **16-26**
 11. PT06 **A-(SR)** **16-26**
@@ -100,12 +97,17 @@ El número de parte quedaria de la siguiente forma:
 
 | **Hembra**                 | **Macho**                  |
 |------------------------|------------------------|
-| MS3116 **E** **16-26** **S**  | MS3116 **E** **16-26** **P** |
-| MS3116 **J** **16-26** **S**  | MS3116 **J** **16-26** **P** |
-| MS3116 **P** **16-26** **S**  |  MS3116 **P** **16-26** **P**|
-| PT06 **A** **16-26** **S**    | PT06 **A** **16-26** **P**|
-| PT06 **E** **16-26** **S**    |PT06 **E** **16-26** **P**|
-|PT06 **A-(SR)** **16-26** **S**|PT06 **A-(SR)** **16-26** **P**|
+| MS3126 **E** **16-26** **S**  | MS3126 **E** **16-26** **P** |
+| MS3126 **J** **16-26** **S**  | MS3126 **J** **16-26** **P** |
+| MS3126 **P** **16-26** **S**  |  MS3126 **P** **16-26** **P**|
+| PT06 **SE** **16-26** **S**    | PT06 **A** **16-26** **P**|
+| PT06 **CE** **16-26** **S**    | PT06 **E** **16-26** **P**|
+| PT06 **SE** **16-26** **S** **(SR)**| PT06 **SE** **16-26** **P** **(SR)**|
+| PT06 **CE** **16-26** **S** **(SR)**| PT06 **CE** **16-26** **P** **(SR)**|
+| PT06 **F** **16-26** **S**| PT06 **F** **16-26** **P**|
+| PT06 **SP** **16-26** **S**| PT06 **SP** **16-26** **P**|
+| PT06 **CP** **16-26** **S**| PT06 **CP** **16-26** **P**|
+| PT06 **P** **16-26** **S**| PT06 **P** **16-26** **P**|
 |85106 **RA** **16-26** **S**    |85106 **RA** **16-26** **P**|
 |85106 **R** **16-26** **S**    |85106 **R** **16-26** **P**|
 |85106 **RT** **16-26** **S**    |85106 **RT** **16-26** **P**|
@@ -124,21 +126,20 @@ Entonces conociendo esto, la tabla anterior quedaría de la misma forma.
 
 | **Hembra**                 | **Macho**                  |
 |------------------------|------------------------|
-|MS3116A16-26        |MS3116A16-26P |
-|MS3116E16-26S       |MS3116E16-26P |
-|MS3116A-(SR)16-26   |MS3116A-(SR)16-26|
-|MS3116E-(SR)16-26S  |MS3116E-(SR)16-26P|
-|MS3116F16-26S   |[MS3116F16-26P](https://renhotecpro.com/product/mil-dtl-26482-series-1-connectorms3116f16-26p-male-cable-mount-plug26-pin-solder) |
-|MS3116J16-26S   |MS3116J16-26P|
-|MS3116W16-26S   |MS3116W16-26P|
-|MS3116P16-26S   |MS3116P16-26P|
-|PT06A16-26S     |:material-check:[PT06A16-26P](https://www.mouser.pe/ProductDetail/Amphenol-Industrial/PT06A-16-26P?qs=uCWFCIOkExB4L%2FJfgtqFFg%3D%3D)|
-|PT06E16-26S     |PT06E16-26P|
-|PT06A-(SR)16-26S|PT06A-(SR)16-26P|
-|PT06E-(SR)16-26S|PT06 E-(SR)16-26P|
+|MS3126A16-26        |MS3126A16-26P |
+|MS3126E16-26S       |MS3126E16-26P |
+|MS3126A-(SR)16-26   |MS3126A-(SR)16-26|
+|MS3126E-(SR)16-26S  |MS3126E-(SR)16-26P|
+|MS3126F16-26S   |[MS3126F16-26P](https://renhotecpro.com/product/mil-dtl-26482-series-1-connectorMS3126f16-26p-male-cable-mount-plug26-pin-solder) |
+|MS3126J16-26S   |MS3126J16-26P|
+|MS3126W16-26S   |MS3126W16-26P|
+|MS3126P16-26S   |MS3126P16-26P|
+|PT06SE16-26S     |PT06SE16-26P|
+|PT06CE16-26S     |PT06CE16-26P|
+|PT06SE16-26S(SR)|PT06SE16-26P(SR)|
 |PT06F16-26S     |PT06F16-26P|
-|PT06J16-26S     |PT06J16-26P|
-|PT06W16-26S     |PT06W16-26P|
+|PT06SP16-26S     |PT06SP16-26P|
+|PT06CP16-26S     |PT06CP16-26P|
 |PT06P16-26S     |PT06P16-26P|
 |85106RA16-26S   |85106RA16-26P|
 |85106R16-26S    |85106R16-26P|
